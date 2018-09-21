@@ -1,4 +1,4 @@
-local iucConf = require('IUCConfigspractice2')
+local iucConf = require('IUCConfigspractice1')
 local csvUtil = {}
 
 function csvUtil.updateFile(jsonTbl) 

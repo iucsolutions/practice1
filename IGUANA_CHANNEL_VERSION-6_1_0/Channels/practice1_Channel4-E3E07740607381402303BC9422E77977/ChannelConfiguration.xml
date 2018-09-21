@@ -7,8 +7,8 @@
    use_message_filter="false">
    <to_mapper
       guid="practice1_Channel4-To-JiRC4BV3bv4f08"
-      commit_id="2a4eabfb9b73830d0ca7c4974179d4d010fcaed7"
-      commit_comment="update">
+      commit_id="360fec2bb12dd1e1cc447485636d22d1b6ee3e27"
+      commit_comment="changed config file">
       <dequeue_list>
          <dequeue
             source_name="practice1_Channel1"

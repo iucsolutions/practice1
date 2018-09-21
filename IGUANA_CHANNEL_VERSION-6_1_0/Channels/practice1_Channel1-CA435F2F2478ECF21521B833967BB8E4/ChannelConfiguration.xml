@@ -9,8 +9,8 @@
    </to_channel>
    <from_mapper
       guid="practice1_Channel1-From-s7LEiENtBbEAXm"
-      commit_id="71d8523783a7a9670cfbe23fcb7e99043d769a2f"
-      commit_comment="Import Translators: p1"
+      commit_id="a732e71fabc4be2703effac150f87e9810787d34"
+      commit_comment="done"
       poll_time="15000">
    </from_mapper>
    <message_filter

@@ -3,10 +3,10 @@
         "csvUtil.lua"
     ],
     "LuaDependencies": [
-        "IUCConfigspractice2"
+        "IUCConfigspractice1"
     ],
     "OtherDependencies": [],
-    "timestamp": "1537471789",
+    "timestamp": "1537503054",
     "version_info": {
         "build": 0,
         "major": 6,
