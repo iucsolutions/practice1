@@ -1,0 +1,45 @@
+<channel
+   name="practice2_Channel3"
+   guid="07D0AF9FB65D05B3C88401FBCA1A747F"
+   description=""
+   start_automatically="false"
+   logging_level="2"
+   use_message_filter="true">
+   <to_file
+      output_dir="${destDirpractice1}/"
+      write_to_separate_file="true"
+      output_single_filename=""
+      use_prepended_info_as_filename="false"
+      output_file_id_type="1"
+      output_filename_mask="%i.txt"
+      temp_file_extension="tmp"
+      count_of_padding_digit="5"
+      ftp_server="ec2-184-72-202-147.compute-1.amazonaws.com"
+      ftp_username="practice2"
+      ftp_password="kEvlbKKBMt1wCsoKbAzeHwSdo+MemsgwDU0DQLGsP7Q="
+      ftp_path="${ftpPathGROUPNAME}"
+      ftp_max_reconnect="5"
+      sftp_authentication_method="user_password"
+      use_ftp="true">
+      <dequeue_list>
+         <dequeue
+            source_name="practice2_Channel1"
+            dequeue_guid="A45E4D57EECC1E0289D9C86DB5E50B23"/>
+      </dequeue_list>
+   </to_file>
+   <from_channel/>
+   <message_filter
+      filter_after_logging="true"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true"
+      translator_guid="practice2_Channel3-Filter-3ZD7g5CxML2E2a"
+      translator_commit_id="228ea2ed3444487709ea4b7a7ca530d176af1450"
+      translator_commit_comment="Import Translators: p2">
+   </message_filter>
+</channel>

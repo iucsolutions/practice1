@@ -1,0 +1,19 @@
+<channel
+   name="practice2_Channel2"
+   guid="5CF49DABCBEAE988BCF11BEB47834A59"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="practice2_Channel2-To-rRrLZOa7mAy9UN"
+      commit_id="dbc375db0d7830b601dd7664bbd646018f9eafba"
+      commit_comment="zzzzzzz">
+      <dequeue_list>
+         <dequeue
+            source_name="practice2_Channel1"
+            dequeue_guid="93E4AED7403B1B1F24112CDEF3194DF9"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_channel/>
+</channel>
